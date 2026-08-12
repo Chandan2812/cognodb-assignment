@@ -52,6 +52,7 @@ export interface GraphNode {
   id: string;
   label: string;
   type: "Candidate" | "Skill" | "Job" | "Company" | string;
+  properties?: Record<string, unknown>;
 }
 
 export interface GraphLink {
