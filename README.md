@@ -497,7 +497,50 @@ Use production values when deploying.
 
 ------------------------------------------------------------------------
 
-## 12. Local Setup
+## 12. Creating a CognoDB Instance
+
+TalentGraph uses CognoDB as its graph database.
+
+### Step 1: Create a CognoDB account
+
+Open the CognoDB platform and sign in or create an account.
+
+### Step 2: Create a database instance
+
+From the CognoDB dashboard:
+
+1. Create a new database instance.
+2. Give the instance a name, for example `talentgraph`.
+3. Select the required region.
+4. Choose the available plan.
+5. Create the instance.
+
+### Step 3: Get database credentials
+
+Open the created database instance and go to the connection section.
+
+Copy the:
+
+- Connection URI
+- Username
+- Password
+
+Keep these credentials private.
+
+### Step 4: Configure the backend
+
+Create a `.env` file inside the `backend` directory:
+
+```env
+PORT=5000
+
+COGNODB_URI=your_cognodb_uri
+COGNODB_USERNAME=your_username
+COGNODB_PASSWORD=your_password
+
+------------------------------------------------------------------------
+
+## 13. Local Setup
 
 ### Prerequisites
 
@@ -575,7 +618,7 @@ http://localhost:3000
 
 ------------------------------------------------------------------------
 
-## 13. Data Seeding
+## 14. Data Seeding
 
 The project uses seeded graph data for the demonstration.
 
@@ -595,7 +638,7 @@ API.
 
 ------------------------------------------------------------------------
 
-## 14. Error Handling
+## 15. Error Handling
 
 The backend includes:
 
@@ -612,7 +655,7 @@ feedback when an API request fails.
 
 ------------------------------------------------------------------------
 
-## 15. Neo4j/CognoDB Value Normalization
+## 16. Neo4j/CognoDB Value Normalization
 
 Graph database integer values may be returned in a database-specific
 representation.
@@ -642,7 +685,7 @@ API value
 
 ------------------------------------------------------------------------
 
-## 16. Main Graph Queries
+## 17. Main Graph Queries
 
 ### Candidate recommendations
 
@@ -672,61 +715,43 @@ This powers the interactive graph explorer.
 
 ------------------------------------------------------------------------
 
-## 17. Screenshots
+## 18. Screenshots
 
-Add final application screenshots here before submission.
-
-Suggested screenshots:
+Final screenshots
 
 ### Dashboard
 
-``` text
 ![Dashboard](https://github.com/user-attachments/assets/bebcfbeb-109c-4387-a898-9c2d4eaa15c3)
-
-```
 
 ### Recommendation Results
 
-``` text
 ![Recommendation Results](https://github.com/user-attachments/assets/2c551613-4c4c-4aee-9f3d-1edfd4a0a7db)
-
-```
 
 ### Interactive Graph Explorer
 
-``` text
 ![Interactive Graph Explorer](https://github.com/user-attachments/assets/0bbd8ae9-6ca6-46c4-8785-5645d0853ba4)
-
-```
 
 ### Node Details
 
-``` text
 ![Node Details](https://github.com/user-attachments/assets/eae20821-5ee0-4d68-a096-ff4aaea142e2)
 
-```
+------------------------------------------------------------------------
+
+## 19. Demo
+
+### Live Application
+
+[**Open TalentGraph →**](https://cognodb-assignment-sigma.vercel.app/)
+
+### Demo Video
+
+Demo video will be added here:
+
+`<video-url>`
 
 ------------------------------------------------------------------------
 
-## 18. Demo
-
-Add the deployed application URL here:
-
-``` text
-Live Demo:
-[<deployment-url>](https://cognodb-assignment-sigma.vercel.app/)
-```
-
-Add the short screen recording URL here:
-
-``` text
-Demo Video:
-<video-url>
-```
-
-------------------------------------------------------------------------
-
-## 19. Tech Stack
+## 20. Tech Stack
 
 ### Frontend
 
@@ -752,7 +777,7 @@ Demo Video:
 
 ------------------------------------------------------------------------
 
-## 20. Future Improvements
+## 21. Future Improvements
 
 Possible future improvements include:
 
@@ -770,7 +795,7 @@ Possible future improvements include:
 
 ------------------------------------------------------------------------
 
-## 21. Conclusion
+## 22. Conclusion
 
 TalentGraph demonstrates a graph-oriented approach to talent discovery.
 
