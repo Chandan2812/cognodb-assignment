@@ -681,28 +681,28 @@ Suggested screenshots:
 ### Dashboard
 
 ``` text
-<img width="1917" height="858" alt="image" src="https://github.com/user-attachments/assets/bebcfbeb-109c-4387-a898-9c2d4eaa15c3" />
+![Dashboard](https://github.com/user-attachments/assets/bebcfbeb-109c-4387-a898-9c2d4eaa15c3")
 
 ```
 
 ### Recommendation Results
 
 ``` text
-<img width="1895" height="888" alt="image" src="https://github.com/user-attachments/assets/2c551613-4c4c-4aee-9f3d-1edfd4a0a7db" />
+![Recommendation Results]("https://github.com/user-attachments/assets/2c551613-4c4c-4aee-9f3d-1edfd4a0a7db")
 
 ```
 
 ### Interactive Graph Explorer
 
 ``` text
-<img width="1891" height="892" alt="image" src="https://github.com/user-attachments/assets/0bbd8ae9-6ca6-46c4-8785-5645d0853ba4" />
+![Interactive Graph Explorer]("https://github.com/user-attachments/assets/0bbd8ae9-6ca6-46c4-8785-5645d0853ba4")
 
 ```
 
 ### Node Details
 
 ``` text
-<img width="1795" height="874" alt="image" src="https://github.com/user-attachments/assets/eae20821-5ee0-4d68-a096-ff4aaea142e2" />
+![Node Details]("https://github.com/user-attachments/assets/eae20821-5ee0-4d68-a096-ff4aaea142e2")
 
 ```
 
