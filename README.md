@@ -681,25 +681,29 @@ Suggested screenshots:
 ### Dashboard
 
 ``` text
-[ Add screenshot here ]
+<img width="1917" height="858" alt="image" src="https://github.com/user-attachments/assets/bebcfbeb-109c-4387-a898-9c2d4eaa15c3" />
+
 ```
 
 ### Recommendation Results
 
 ``` text
-[ Add screenshot here ]
+<img width="1895" height="888" alt="image" src="https://github.com/user-attachments/assets/2c551613-4c4c-4aee-9f3d-1edfd4a0a7db" />
+
 ```
 
 ### Interactive Graph Explorer
 
 ``` text
-[ Add screenshot here ]
+<img width="1891" height="892" alt="image" src="https://github.com/user-attachments/assets/0bbd8ae9-6ca6-46c4-8785-5645d0853ba4" />
+
 ```
 
 ### Node Details
 
 ``` text
-[ Add screenshot here ]
+<img width="1795" height="874" alt="image" src="https://github.com/user-attachments/assets/eae20821-5ee0-4d68-a096-ff4aaea142e2" />
+
 ```
 
 ------------------------------------------------------------------------
@@ -710,7 +714,7 @@ Add the deployed application URL here:
 
 ``` text
 Live Demo:
-<deployment-url>
+[<deployment-url>](https://cognodb-assignment-sigma.vercel.app/)
 ```
 
 Add the short screen recording URL here:
@@ -719,16 +723,6 @@ Add the short screen recording URL here:
 Demo Video:
 <video-url>
 ```
-
-The demo should show:
-
-1.  Selecting a candidate
-2.  Viewing candidate information
-3.  Viewing recommendations
-4.  Showing match percentages and matched skills
-5.  Opening the graph explorer
-6.  Clicking graph nodes
-7.  Showing relationships and node properties
 
 ------------------------------------------------------------------------
 
