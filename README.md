@@ -743,12 +743,6 @@ Final screenshots
 
 [**Open TalentGraph →**](https://cognodb-assignment-sigma.vercel.app/)
 
-### Demo Video
-
-Demo video will be added here:
-
-`<video-url>`
-
 ------------------------------------------------------------------------
 
 ## 20. Tech Stack
